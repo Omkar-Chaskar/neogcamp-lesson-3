@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 :root {
-    --primary-color: red;
+    --primary-color: rgb(46, 50, 243);
+    --dark-gray: #687280;
 }
 
 body {
     font-family: 'Merriweather', san-serif;
+}
+
+hr {
+    margin: 1rem 0rem;
 }
 
 /** container **/
@@ -38,5 +43,51 @@ body {
 
 }
 
-/**/
+/*lists*/
+.list-non-bullet {
+    list-style: none;
+}
 
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0rem 0rem 0rem 1rem;
+
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation  .nav-pills{
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/*Header*/
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading {
+    color: var(--dark-gray);
+}
