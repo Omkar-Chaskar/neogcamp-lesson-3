@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: rgb(46, 50, 243);
+    --secondary-color: rgb(71, 73, 212);
     --dark-gray: #687280;
     --off-white: #F3F4F6;
 }
@@ -19,6 +20,7 @@ hr {
 /** spaces**/
 .margin-md {
     margin: 2rem;
+    
 }
 
 
@@ -148,4 +150,19 @@ hr {
 
 .footer .ul {
     padding-inline-start: 0px;
+}
+
+/**blog**/
+
+.blog-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.back-link {
+        border: 1px solid blue;
+        margin:1rem 2rem 3rem 0rem;
+        background-color: var(--primary-color);
+        border-radius: 0.5rem;
+        color: white;
 }
