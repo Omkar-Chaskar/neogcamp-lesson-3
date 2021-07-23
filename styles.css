@@ -160,9 +160,14 @@ hr {
 }
 
 .back-link {
-        border: 1px solid blue;
-        margin:1rem 2rem 3rem 0rem;
-        background-color: var(--primary-color);
-        border-radius: 0.5rem;
-        color: white;
+     border: 1px solid blue;
+     margin:1rem 2rem 3rem 0rem;
+     background-color: var(--primary-color);
+     border-radius: 0.5rem;
+     color: white;
+}
+
+.blog-container-center {
+        max-width: 900px;
+        margin: auto;
 }
