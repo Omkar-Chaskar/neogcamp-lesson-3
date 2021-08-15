@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: rgb(46, 50, 243);
-    --secondary-color: rgb(71, 73, 212);
+    --secondary-color: #575bf5;
     --dark-gray: #687280;
     --off-white: #F3F4F6;
 }
@@ -131,6 +131,12 @@ hr {
     color: var(--primary-color);
 }
 
+.hero p{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
 /**Section**/
 .section {
     padding: 2rem;
@@ -193,7 +199,7 @@ hr {
 }
 
 .back-link {
-     border: 1px solid blue;
+     border: 1px solid var(--secondary-color);
      margin:1rem 2rem 3rem 0rem;
      background-color: var(--primary-color);
      border-radius: 0.5rem;
